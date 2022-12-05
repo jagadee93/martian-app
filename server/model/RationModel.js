@@ -21,7 +21,7 @@ const rationSchema=new Schema({
         required:false,
     },
     ExpiryDate:{
-        type:String,
+        type:Date,
         required:false,
     },
     Quantity:{

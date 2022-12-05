@@ -60,7 +60,7 @@ const AddRation = () => {
         </Col>
       </Row>
       {
-        loading ? <form className='--flex' >
+    <form className='--flex' >
           <Row>
             <Col sm={6} className="px-1">
               <label htmlFor=''>Packet Type</label>
@@ -87,11 +87,11 @@ const AddRation = () => {
               <input type="number" ref={quantityRef} placeholder='enter quantity' />
             </Col>
             <Col sm={12} className="px-1">
-              <button type="submit" onClick={SubmitHandler}>Add</button>
+              <button className="btn btn-primary" type="submit" onClick={SubmitHandler}>Add</button>
             </Col>
 
           </Row>
-        </form> : <Spinner />
+        </form>
       }
 
     </section>

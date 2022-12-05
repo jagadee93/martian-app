@@ -38,7 +38,19 @@ FcDeleteRow {
 }
 
 
-
+.btn{
+    cursor: pointer;
+                outline: none;
+                padding: 0.75rem 1.25rem;
+                border-radius: 12px;
+                font-size: 1rem;
+                font-family: inherit;
+                background: $primary;
+                color: $dark;
+                border: 1px solid transparent;
+                transition: 0.3s ease all;
+                width: 20%;
+}
 
 
 .add-ration {

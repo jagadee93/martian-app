@@ -43,6 +43,20 @@ FcDeleteRow:hover {
   background-size: cover;
 }
 
+.btn {
+  cursor: pointer;
+  outline: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-family: inherit;
+  background: rgb(162, 162, 246);
+  color: rgb(29, 29, 29);
+  border: 1px solid transparent;
+  transition: 0.3s ease all;
+  width: 20%;
+}
+
 .add-ration {
   width: 50vw;
   margin: 0 auto;

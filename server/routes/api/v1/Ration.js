@@ -5,4 +5,5 @@ Router
     .get("/",RationController.viewInventory)
     .post("/",RationController.addRation)
     .delete("/:id",RationController.DeleteRation)
+    .get("/schedule",RationController.scheduleRation)
 module.exports = Router
