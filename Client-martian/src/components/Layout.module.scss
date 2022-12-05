@@ -1,0 +1,7 @@
+@import "../styles/Variables.scss";
+.container {
+    background: $bg-color;
+    color:#fff;
+    min-height: 100vh;
+    width: 100%;
+}
